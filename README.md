@@ -2,4 +2,4 @@
 
 Laman jemputan perkahwinan, 27 November 2027.
 
-Live: https://hzmanhdi.github.io/wedding/
+Live: https://hzmanhdi.github.io/Hadibah/
