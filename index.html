@@ -1,0 +1,619 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><title>Walimatul Urus Adibah &amp; Hazman</title>
+<meta name="description" content="Jemputan Walimatul Urus Adibah &amp; Hazman · Sabtu, 27 November 2027 · Astana Fartisha, Lahat, Perak">
+<meta property="og:title" content="Walimatul Urus Adibah &amp; Hazman">
+<meta property="og:description" content="Sabtu, 27 November 2027 · Astana Fartisha, Lahat, Perak">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://hzmanhdi.github.io/wedding/img/monogram.png">
+<meta name="theme-color" content="#C9A2D6">
+<link rel="icon" href="img/monogram.png">
+</head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Jost:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow invitation column floating over a living field of lilac crystals; solid lilac bands carry the formal wording. */
+:root{
+  --cream:#FAF3EA;
+  --paper:#FFFDF9;
+  --lilac:#C9A2D6;
+  --lilac-soft:#E9DAF0;
+  --violet:#8E54A8;
+  --plum:#4A2A5C;
+  --ink:#5B4A63;
+  --gold:#C6A15B;
+  --f-script:"Great Vibes","Brush Script MT",cursive;
+  --f-serif:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
+  --f-label:"Jost","Avenir Next","Segoe UI",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:var(--f-serif);font-size:18px;line-height:1.6;overflow-x:hidden}
+#sky{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+main{position:relative;z-index:1;padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+.col{max-width:520px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+section{position:relative;padding-block:64px;text-align:center}
+.label{font-family:var(--f-label);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--violet)}
+h2{font-family:var(--f-script);font-weight:400;font-size:44px;line-height:1.1;color:var(--violet);margin:6px 0 22px;text-wrap:balance}
+.script{font-family:var(--f-script);font-weight:400}
+p{margin:0}
+.divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px auto;color:var(--violet)}
+.divider::before,.divider::after{content:"";height:1px;width:64px;background:linear-gradient(90deg,transparent,var(--lilac))}
+.divider::after{background:linear-gradient(90deg,var(--lilac),transparent)}
+.divider svg{width:14px;height:14px;animation:twinkle 2.6s ease-in-out infinite}
+
+/* ---------- cover ---------- */
+#cover{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:var(--cream);transition:opacity .9s ease,visibility .9s;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+#cover.gone{opacity:0;visibility:hidden}
+#cover canvas{position:absolute;inset:0;width:100%;height:100%}
+.seal{position:relative;display:grid;justify-items:center;gap:18px;text-align:center}
+.orb{width:min(62vw,250px);aspect-ratio:1;max-width:100%;border-radius:50%;background:var(--paper);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(233,218,240,.55),0 20px 60px -20px rgba(142,84,168,.45);animation:breathe 5s ease-in-out infinite}
+.orb span{font-family:var(--f-serif);font-style:italic;letter-spacing:.3em;font-size:17px;color:var(--plum);line-height:1.8}
+.couple-script{font-family:var(--f-script);font-size:46px;color:var(--plum);line-height:1}
+.btn{font-family:var(--f-serif);font-style:italic;font-size:18px;border:0;cursor:pointer;color:#fff;background:var(--violet);padding:10px 30px;border-radius:999px;box-shadow:0 10px 24px -10px rgba(142,84,168,.8);transition:transform .2s ease,background .2s;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn:hover{transform:translateY(-2px);background:#7A4593}
+.btn:focus-visible,.chip:focus-visible,.nav a:focus-visible{outline:2px solid var(--plum);outline-offset:3px}
+.btn.ghost{background:transparent;color:var(--violet);box-shadow:inset 0 0 0 1px var(--lilac)}
+.btn.ghost:hover{background:var(--lilac-soft)}
+
+/* ---------- butterflies ---------- */
+.bfly{position:absolute;width:38px;height:30px;pointer-events:none;z-index:3}
+.bfly svg{width:100%;height:100%;overflow:visible}
+.bfly .wl{transform-origin:50% 50%;transform-box:fill-box;animation:flapL .32s ease-in-out infinite alternate}
+.bfly .wr{transform-origin:0% 50%;transform-box:fill-box;animation:flapR .32s ease-in-out infinite alternate}
+.bfly .wl{transform-origin:100% 50%}
+.fly1{animation:fly1 16s ease-in-out infinite}
+.fly2{animation:fly2 19s ease-in-out infinite}
+.fly3{animation:fly3 14s ease-in-out infinite}
+.hover1{animation:hover 4s ease-in-out infinite}
+
+/* ---------- hero ---------- */
+.hero{padding-top:56px}
+.frame{position:relative;width:min(70vw,280px);max-width:100%;aspect-ratio:1/1.12;margin:26px auto 30px}
+.frame .hex{position:absolute;inset:0;width:100%;height:100%}
+.frame .hex .spin{transform-origin:50% 50%;animation:slowspin 60s linear infinite}
+.monogram{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
+.monogram .m{font-family:var(--f-script);font-size:76px;color:var(--plum);line-height:.9}
+.monogram .m small{display:block;font-size:30px;color:var(--violet)}
+.date-big{font-family:var(--f-serif);font-size:44px;font-weight:500;letter-spacing:.06em;color:var(--plum)}
+.venue{font-family:var(--f-label);letter-spacing:.24em;font-size:14px;color:var(--plum);margin-top:6px}
+.addr{font-style:italic;letter-spacing:.06em;margin-top:4px}
+
+/* ---------- invitation band ---------- */
+.band{background:linear-gradient(180deg,#C9A2D6 0%,#B98BCB 100%);color:#fff;overflow:hidden}
+.band .label{color:#F6EEF9}
+.band .col{position:relative;z-index:2}
+.band .petal-layer{position:absolute;inset:0;pointer-events:none;z-index:1}
+.invite p{font-style:italic;letter-spacing:.04em}
+.invite .parents{font-size:21px;font-weight:600;font-style:italic;margin:14px 0}
+.invite .name{font-family:var(--f-script);font-style:normal;font-size:46px;line-height:1.15;color:#fff;text-shadow:0 2px 14px rgba(74,42,92,.35)}
+.invite .rule{height:1px;background:rgba(255,255,255,.65);margin:18px auto;max-width:320px;position:relative}
+.invite .rule::before,.invite .rule::after{content:"";position:absolute;top:-3px;width:7px;height:7px;background:#fff;transform:rotate(45deg)}
+.invite .rule::before{left:-3px}.invite .rule::after{right:-3px}
+.when{margin-top:18px;display:grid;gap:2px}
+.when strong{font-size:22px;font-weight:600}
+
+/* ---------- countdown ---------- */
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:8px auto 22px;max-width:420px}
+.count div{background:rgba(255,253,249,.85);border:1px solid var(--lilac-soft);border-radius:14px;padding:12px 4px 8px;backdrop-filter:blur(4px)}
+.count b{display:block;font-family:var(--f-serif);font-weight:500;font-size:34px;line-height:1;color:var(--plum);font-variant-numeric:tabular-nums}
+.count span{font-family:var(--f-label);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--violet)}
+.verse{font-style:italic;max-width:42ch;margin:0 auto}
+.verse cite{display:block;font-style:normal;font-family:var(--f-label);font-size:12px;letter-spacing:.2em;margin-top:8px;color:var(--violet)}
+
+/* ---------- icons ---------- */
+.ico{width:58px;height:58px;margin:0 auto 6px;color:var(--violet)}
+.ico svg{width:100%;height:100%;overflow:visible}
+.a-flip{animation:flip 4s ease-in-out infinite}
+.a-bob{animation:bob 2.4s ease-in-out infinite}
+.a-glow{animation:glow 3.4s ease-in-out infinite}
+.a-wob{animation:wobble 3.2s ease-in-out infinite;transform-origin:50% 90%}
+.a-beat{animation:beat 1.6s ease-in-out infinite}
+.a-ring{animation:ring 3s ease-in-out infinite;transform-origin:50% 10%}
+.a-sway{animation:sway 3.6s ease-in-out infinite;transform-origin:50% 100%}
+
+/* ---------- aturcara ---------- */
+.timeline{list-style:none;margin:0 auto;padding:0;max-width:400px;display:grid;gap:14px;text-align:left}
+.timeline li{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:center;background:rgba(255,253,249,.88);border:1px solid var(--lilac-soft);border-radius:16px;padding:12px 16px}
+.timeline .t-ico{width:44px;height:44px;border-radius:50%;background:var(--lilac-soft);display:grid;place-items:center;color:var(--violet)}
+.timeline .t-ico svg{width:24px;height:24px}
+.timeline li:nth-child(1) .t-ico svg{animation:bob 2.6s ease-in-out infinite}
+.timeline li:nth-child(2) .t-ico svg{animation:beat 1.8s ease-in-out infinite}
+.timeline li:nth-child(3) .t-ico svg{animation:flash 3s ease-in-out infinite}
+.timeline li:nth-child(4) .t-ico svg{animation:wave 2.2s ease-in-out infinite;transform-origin:70% 90%}
+.timeline time{font-family:var(--f-label);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--violet);display:block;font-variant-numeric:tabular-nums}
+.timeline span{font-size:19px;color:var(--plum);line-height:1.3;display:block}
+
+/* ---------- cards ---------- */
+.card{background:rgba(255,253,249,.9);border:1px solid var(--lilac-soft);border-radius:22px;padding:28px 22px;box-shadow:0 24px 50px -32px rgba(142,84,168,.55)}
+.row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:18px}
+.doa{font-style:italic;font-size:20px;line-height:1.7;max-width:36ch;margin:0 auto}
+.amin{font-family:var(--f-script);font-size:34px;color:var(--violet);margin-top:8px}
+.contacts{display:grid;gap:10px;margin-top:6px}
+.contact{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;text-align:left;padding:12px 16px;border-radius:14px;background:var(--paper);border:1px solid var(--lilac-soft)}
+.contact b{font-weight:600;color:var(--plum);font-size:19px;display:block;line-height:1.2}
+.contact small{font-family:var(--f-label);font-size:12px;letter-spacing:.06em;color:var(--violet)}
+.contact .num{font-family:var(--f-label);font-size:14px;color:var(--ink);font-variant-numeric:tabular-nums;user-select:all}
+.chip{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--violet);color:#fff;text-decoration:none;transition:transform .2s}
+.chip:hover{transform:scale(1.08)}
+.chip svg{width:20px;height:20px}
+.c-right{display:flex;align-items:center;gap:10px}
+
+form{display:grid;gap:14px;text-align:left;margin-top:8px}
+label.f{font-family:var(--f-label);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--violet);display:grid;gap:6px}
+input[type=text],input[type=number],textarea{font:inherit;font-size:17px;color:var(--plum);background:var(--paper);border:1px solid var(--lilac);border-radius:12px;padding:10px 14px;width:100%}
+textarea{min-height:96px;resize:vertical}
+input:focus,textarea:focus{outline:2px solid var(--violet);outline-offset:1px}
+.choices{display:flex;flex-wrap:wrap;gap:8px}
+.choices label{flex:1 1 90px}
+.choices input{position:absolute;opacity:0;pointer-events:none}
+.choices span{display:block;text-align:center;padding:9px 6px;border-radius:12px;border:1px solid var(--lilac);font-family:var(--f-serif);font-size:17px;text-transform:none;letter-spacing:0;color:var(--plum);cursor:pointer;transition:background .2s,color .2s}
+.choices input:checked+span{background:var(--violet);color:#fff;border-color:var(--violet)}
+.choices input:focus-visible+span{outline:2px solid var(--plum);outline-offset:2px}
+.hint{font-size:15px;font-style:italic;color:var(--ink);text-align:center}
+.note{font-size:16px;font-style:italic;color:var(--violet);margin-top:10px}
+
+.closing .thanks{font-size:22px;font-style:italic;max-width:30ch;margin:0 auto}
+.closing .tag{font-family:var(--f-script);font-size:52px;color:var(--violet);margin-top:10px}
+
+/* ---------- bottom nav ---------- */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;justify-content:center;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));padding-top:10px;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));pointer-events:none}
+.nav div{pointer-events:auto;display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:rgba(255,253,249,.94);border:1px solid var(--lilac-soft);border-radius:20px;padding:6px;box-shadow:0 12px 30px -14px rgba(74,42,92,.5);width:100%;max-width:460px;backdrop-filter:blur(8px)}
+.nav a{display:grid;justify-items:center;gap:2px;text-decoration:none;color:var(--violet);font-family:var(--f-label);font-size:10px;letter-spacing:.08em;padding:6px 2px;border-radius:14px}
+.nav a:hover{background:var(--lilac-soft)}
+.nav svg{width:20px;height:20px}
+
+/* ---------- keyframes ---------- */
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+@keyframes twinkle{0%,100%{transform:scale(.8) rotate(0);opacity:.6}50%{transform:scale(1.15) rotate(45deg);opacity:1}}
+@keyframes flapL{from{transform:scaleX(1)}to{transform:scaleX(.25)}}
+@keyframes flapR{from{transform:scaleX(1)}to{transform:scaleX(.25)}}
+@keyframes hover{0%,100%{transform:translate(0,0) rotate(-6deg)}50%{transform:translate(6px,-10px) rotate(6deg)}}
+@keyframes fly1{0%{transform:translate(0,0) rotate(10deg)}25%{transform:translate(60px,-40px) rotate(-8deg)}50%{transform:translate(20px,-90px) rotate(12deg)}75%{transform:translate(-40px,-40px) rotate(-10deg)}100%{transform:translate(0,0) rotate(10deg)}}
+@keyframes fly2{0%{transform:translate(0,0) scaleX(-1)}30%{transform:translate(-70px,30px) scaleX(-1) rotate(8deg)}60%{transform:translate(-20px,80px) scaleX(-1) rotate(-6deg)}100%{transform:translate(0,0) scaleX(-1)}}
+@keyframes fly3{0%{transform:translate(0,0)}33%{transform:translate(40px,30px) rotate(14deg)}66%{transform:translate(-30px,50px) rotate(-10deg)}100%{transform:translate(0,0)}}
+@keyframes slowspin{to{transform:rotate(360deg)}}
+@keyframes flip{0%,40%{transform:rotate(0)}50%,90%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes glow{0%,100%{filter:drop-shadow(0 0 0 rgba(198,161,91,0));transform:rotate(-4deg)}50%{filter:drop-shadow(0 0 10px rgba(198,161,91,.8));transform:rotate(4deg)}}
+@keyframes wobble{0%,70%,100%{transform:rotate(0)}75%{transform:rotate(-9deg)}80%{transform:rotate(8deg)}85%{transform:rotate(-6deg)}90%{transform:rotate(4deg)}}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}45%{transform:scale(1.12)}}
+@keyframes ring{0%,70%,100%{transform:rotate(0)}75%{transform:rotate(12deg)}80%{transform:rotate(-12deg)}85%{transform:rotate(8deg)}90%{transform:rotate(-6deg)}}
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes flash{0%,80%,100%{transform:scale(1)}85%{transform:scale(1.2)}}
+@keyframes wave{0%,100%{transform:rotate(0)}25%{transform:rotate(18deg)}50%{transform:rotate(-8deg)}75%{transform:rotate(14deg)}}
+@keyframes rise{from{transform:translateY(12px)}to{transform:none}}
+.hero .col>*{animation:rise .9s ease-out both}
+.hero .col>*:nth-child(2){animation-delay:.1s}.hero .col>*:nth-child(3){animation-delay:.2s}.hero .col>*:nth-child(4){animation-delay:.3s}
+
+.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;clip-path:polygon(50% 8%,90% 28.6%,90% 71.4%,50% 92%,10% 71.4%,10% 28.6%);background:#FFFDF9;animation:photoIn 1.4s ease-out both}
+.hex-top{pointer-events:none}
+.orb-in{display:grid;justify-items:center;gap:8px}
+.mono-img{width:68%;height:auto;animation:monoGlow 4s ease-in-out infinite}
+.orb .orb-in span{font-size:12px;letter-spacing:.32em;line-height:1}
+.mono-band{display:block;width:140px;height:auto;margin:0 auto 18px;animation:float 5s ease-in-out infinite;filter:drop-shadow(0 4px 14px rgba(74,42,92,.35))}
+#kiraan{overflow:hidden}
+.mono-water{position:absolute;left:50%;top:50%;width:min(110vw,640px);height:auto;transform:translate(-50%,-50%);opacity:.07;pointer-events:none;z-index:0;animation:waterDrift 18s ease-in-out infinite}
+#kiraan .col{position:relative;z-index:1}
+.mono-close{display:block;width:170px;height:auto;margin:0 auto 18px;animation:monoGlow 4s ease-in-out infinite}
+@keyframes monoGlow{0%,100%{filter:drop-shadow(0 0 0 rgba(181,123,208,0));transform:scale(1)}50%{filter:drop-shadow(0 0 10px rgba(181,123,208,.7));transform:scale(1.03)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes waterDrift{0%,100%{transform:translate(-50%,-50%) rotate(-3deg)}50%{transform:translate(-50%,-52%) rotate(3deg)}}
+@keyframes photoIn{from{transform:scale(1.06)}to{transform:scale(1)}}
+
+.couple-stage{position:relative;width:min(66vw,250px);max-width:100%;margin:24px auto 26px}
+.couple-img{position:relative;display:block;width:100%;height:auto;z-index:2;animation:photoIn 1.2s ease-out both,coupleFloat 6s ease-in-out 1.2s infinite}
+.stage-shadow{position:absolute;left:8%;right:4%;bottom:-6px;height:22px;border-radius:50%;background:radial-gradient(closest-side,rgba(74,42,92,.28),rgba(74,42,92,0));z-index:1;animation:shadowPulse 6s ease-in-out 1.2s infinite}
+.stage-spark{position:absolute;inset:-6% -14%;width:128%;height:112%;z-index:1;overflow:visible}
+.stage-spark use{transform-box:fill-box;transform-origin:center}
+.tw1{animation:twinkle 2.6s ease-in-out infinite}.tw2{animation:twinkle 3.4s ease-in-out .8s infinite}
+.couple-stage .bfly{z-index:3}
+@keyframes coupleFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes shadowPulse{0%,100%{transform:scaleX(1);opacity:1}50%{transform:scaleX(.92);opacity:.75}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+@media (max-width:380px){h2{font-size:38px}.invite .name{font-size:40px}.count b{font-size:28px}.date-big{font-size:38px}}
+</style>
+
+<!-- shared SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="wingA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B57BD0"/><stop offset="1" stop-color="#6E3A8C"/></linearGradient>
+    <linearGradient id="wingB" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9B8E6"/><stop offset="1" stop-color="#8E54A8"/></linearGradient>
+    <symbol id="spark" viewBox="0 0 20 20"><path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" fill="currentColor"/></symbol>
+  </defs>
+</svg>
+
+<canvas id="sky" aria-hidden="true"></canvas>
+
+<!-- ============ COVER ============ -->
+<div id="cover" role="dialog" aria-label="Jemputan Walimatul Urus">
+  <canvas id="coverSky" aria-hidden="true"></canvas>
+  <div class="seal">
+    <div class="bfly fly1" style="left:-10px;top:30px" aria-hidden="true"><svg viewBox="0 0 40 32"><path class="wl" d="M19 16 C10 2 0 2 2 12 C3 18 10 20 19 17 C12 22 8 30 14 30 C18 30 19 22 19 17Z" fill="url(#wingA)"/><path class="wr" d="M21 16 C30 2 40 2 38 12 C37 18 30 20 21 17 C28 22 32 30 26 30 C22 30 21 22 21 17Z" fill="url(#wingB)"/><rect x="19" y="10" width="2" height="14" rx="1" fill="#4A2A5C"/></svg></div>
+    <div class="bfly fly2" style="right:-14px;top:180px" aria-hidden="true"><svg viewBox="0 0 40 32"><path class="wl" d="M19 16 C10 2 0 2 2 12 C3 18 10 20 19 17 C12 22 8 30 14 30 C18 30 19 22 19 17Z" fill="url(#wingB)"/><path class="wr" d="M21 16 C30 2 40 2 38 12 C37 18 30 20 21 17 C28 22 32 30 26 30 C22 30 21 22 21 17Z" fill="url(#wingA)"/><rect x="19" y="10" width="2" height="14" rx="1" fill="#4A2A5C"/></svg></div>
+    <div class="orb"><div class="orb-in"><img class="mono-img" src="img/monogram.png" alt="Monogram A dan H" width="613" height="470"><span>OPEN INVITATION</span></div></div>
+    <div class="label">Walimatul Urus</div>
+    <div class="couple-script">Adibah &amp; Hazman</div>
+    <button class="btn" id="openBtn" type="button">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      Buka Jemputan
+    </button>
+  </div>
+</div>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="utama">
+    <div class="bfly fly3" style="left:8%;top:150px" aria-hidden="true"><svg viewBox="0 0 40 32"><path class="wl" d="M19 16 C10 2 0 2 2 12 C3 18 10 20 19 17 C12 22 8 30 14 30 C18 30 19 22 19 17Z" fill="url(#wingA)"/><path class="wr" d="M21 16 C30 2 40 2 38 12 C37 18 30 20 21 17 C28 22 32 30 26 30 C22 30 21 22 21 17Z" fill="url(#wingB)"/><rect x="19" y="10" width="2" height="14" rx="1" fill="#4A2A5C"/></svg></div>
+    <div class="bfly fly1" style="right:9%;top:330px;width:30px;height:24px;animation-delay:-6s" aria-hidden="true"><svg viewBox="0 0 40 32"><path class="wl" d="M19 16 C10 2 0 2 2 12 C3 18 10 20 19 17 C12 22 8 30 14 30 C18 30 19 22 19 17Z" fill="url(#wingB)"/><path class="wr" d="M21 16 C30 2 40 2 38 12 C37 18 30 20 21 17 C28 22 32 30 26 30 C22 30 21 22 21 17Z" fill="url(#wingA)"/><rect x="19" y="10" width="2" height="14" rx="1" fill="#4A2A5C"/></svg></div>
+    <div class="col">
+      <div class="label">Walimatul Urus</div>
+      <div class="couple-stage">
+        <svg class="stage-spark" viewBox="0 0 200 240" aria-hidden="true" color="#8E54A8">
+          <use href="#spark" x="18" y="40" width="14" height="14" class="tw1"/>
+          <use href="#spark" x="170" y="70" width="11" height="11" class="tw2"/>
+          <use href="#spark" x="8" y="150" width="9" height="9" class="tw2"/>
+          <use href="#spark" x="178" y="170" width="13" height="13" class="tw1"/>
+        </svg>
+        <div class="stage-shadow" aria-hidden="true"></div>
+        <img class="couple-img" src="img/couple-cut.png" alt="Adibah dan Hazman" width="234" height="386">
+        <div class="bfly hover1" style="right:-6px;bottom:28px" aria-hidden="true"><svg viewBox="0 0 40 32"><path class="wl" d="M19 16 C10 2 0 2 2 12 C3 18 10 20 19 17 C12 22 8 30 14 30 C18 30 19 22 19 17Z" fill="url(#wingA)"/><path class="wr" d="M21 16 C30 2 40 2 38 12 C37 18 30 20 21 17 C28 22 32 30 26 30 C22 30 21 22 21 17Z" fill="url(#wingB)"/><rect x="19" y="10" width="2" height="14" rx="1" fill="#4A2A5C"/></svg></div>
+      </div>
+      <div class="date-big">27 · 11 · 2027</div>
+      <div>
+        <div class="venue">ASTANA FARTISHA</div>
+        <p class="addr">Kampung Changkat Larang, 31650 Lahat, Perak</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INVITATION ============ -->
+  <section class="band invite" id="jemputan">
+    <canvas class="petal-layer" id="petals" aria-hidden="true"></canvas>
+    <div class="col">
+      <img class="mono-band" src="img/monogram-white.png" alt="" width="613" height="470">
+      <p>Assalamualaikum WBT &amp; Salam Sejahtera.</p>
+      <p>Dengan penuh kesyukuran ke hadrat Ilahi, kami</p>
+      <p class="parents">Rozali Bin Shamsudin<br>&amp;<br>Noor Siah Binti Zabidin</p>
+      <p>dengan segala hormatnya menjemput<br>Dato' / Datin / Tuan / Puan / Encik / Cik<br>ke majlis perkahwinan puteri kami</p>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="name">Adibah Binti Rozali</p>
+      <p>dan pasangannya</p>
+      <p class="name">Hazman Hadi Bin M. Khirol Amin</p>
+      <div class="rule" aria-hidden="true"></div>
+      <div class="when">
+        <p>pada</p>
+        <strong>Sabtu, 27 November 2027</strong>
+        <p>28 Jamadilakhir 1449H</p>
+        <strong>12.00 Tengah Hari – 4.00 Petang</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section id="kiraan">
+    <img class="mono-water" src="img/monogram.png" alt="" width="613" height="470">
+    <div class="col">
+      <div class="ico a-flip" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5h24M12 43h24"/><path d="M14 5c0 10 10 13 10 19S14 33 14 43M34 5c0 10-10 13-10 19s10 9 10 19"/><path d="M18 38c2-3 4-4 6-4s4 1 6 4" fill="#C9A2D6" stroke="none"/><path d="M19 12h10l-5 6z" fill="#C9A2D6" stroke="none"/></svg></div>
+      <div class="label">Menghitung Hari</div>
+      <h2>Menuju Hari Bahagia</h2>
+      <div class="count" role="timer" aria-live="off">
+        <div><b id="cd-d">--</b><span>Hari</span></div>
+        <div><b id="cd-h">--</b><span>Jam</span></div>
+        <div><b id="cd-m">--</b><span>Minit</span></div>
+        <div><b id="cd-s">--</b><span>Saat</span></div>
+      </div>
+      <a class="btn ghost" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Walimatul%20Urus%20Adibah%20%26%20Hazman&dates=20271127T040000Z/20271127T080000Z&location=Astana%20Fartisha%2C%20Kampung%20Changkat%20Larang%2C%2031650%20Lahat%2C%20Perak&details=Majlis%20perkahwinan%20Adibah%20Binti%20Rozali%20%26%20Hazman%20Hadi%20Bin%20M.%20Khirol%20Amin">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        Simpan ke Kalendar
+      </a>
+      <div class="divider" aria-hidden="true"><svg viewBox="0 0 20 20"><use href="#spark"/></svg></div>
+      <p class="verse">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya.”<cite>AR-RUM · 21</cite></p>
+    </div>
+  </section>
+
+  <!-- ============ ATURCARA ============ -->
+  <section id="aturcara">
+    <div class="col">
+      <div class="ico a-ring" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="29" r="11"/><circle cx="30" cy="29" r="11"/><path d="M24 6l4 5-4 5-4-5z" fill="#C9A2D6"/></svg></div>
+      <div class="label">Atur Cara</div>
+      <h2>Aturcara Majlis</h2>
+      <ol class="timeline">
+        <li>
+          <div class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v6M9 3v6M17 3c-2 2-3 5-3 8h3v10"/></svg></div>
+          <div><time>12.00 tengah hari</time><span>Ketibaan tetamu &amp; jamuan makan</span></div>
+        </li>
+        <li>
+          <div class="t-ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.2 0 3.6 1.2 5.3 3 1.7-1.8 3.1-3 5.3-3 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21z"/></svg></div>
+          <div><time>1.00 petang</time><span>Ketibaan pengantin</span></div>
+        </li>
+        <li>
+          <div class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/></svg></div>
+          <div><time>1.30 petang</time><span>Majlis bersanding &amp; sesi bergambar</span></div>
+        </li>
+        <li>
+          <div class="t-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12M11 11V4.5a1.5 1.5 0 0 1 3 0V12M14 11.5V6a1.5 1.5 0 0 1 3 0v8c0 4-2.5 7-6 7-2.6 0-4-1.3-5.4-3.4L3.4 14a1.6 1.6 0 0 1 2.6-1.8L8 14.5"/></svg></div>
+          <div><time>4.00 petang</time><span>Majlis bersurai</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ LOKASI ============ -->
+  <section id="lokasi">
+    <div class="col">
+      <div class="card">
+        <div class="ico a-bob" aria-hidden="true"><svg viewBox="0 0 48 48"><ellipse cx="24" cy="44" rx="9" ry="2.4" fill="#E9DAF0"/><path d="M24 4c-8.3 0-15 6.4-15 14.6C9 29.5 24 41 24 41s15-11.5 15-22.4C39 10.4 32.3 4 24 4z" fill="#8E54A8"/><circle cx="24" cy="18" r="6" fill="#FFFDF9"/></svg></div>
+        <div class="label">Lokasi Majlis</div>
+        <h2>Astana Fartisha</h2>
+        <p>Kampung Changkat Larang,<br>31650 Lahat, Perak</p>
+        <div class="row">
+          <a class="btn" target="_blank" rel="noopener" href="https://waze.com/ul?q=Astana%20Fartisha%20Lahat%20Perak&navigate=yes">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 15a8 8 0 1 1 15 0c0 2-2 4-6 4H9c-3 0-5-2-5-4z"/><circle cx="9" cy="11" r="1" fill="currentColor"/><circle cx="14" cy="11" r="1" fill="currentColor"/><circle cx="8" cy="20" r="1.5"/><circle cx="16" cy="20" r="1.5"/></svg>
+            Waze
+          </a>
+          <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Astana+Fartisha+Kampung+Changkat+Larang+Lahat+Perak">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>
+            Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DOA ============ -->
+  <section class="band" id="doa">
+    <canvas class="petal-layer" id="petals2" aria-hidden="true"></canvas>
+    <div class="col">
+      <div class="ico a-glow" style="color:#fff" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M30 6a18 18 0 1 0 12 30A15 15 0 0 1 30 6z" fill="#FFFDF9"/><path d="M38 10l1.5 4 4 1.5-4 1.5L38 21l-1.5-4-4-1.5 4-1.5z" fill="#F3E3B8"/></svg></div>
+      <div class="label">Doa Untuk Pengantin</div>
+      <p class="doa" style="margin-top:16px">Ya Allah, berkatilah majlis perkahwinan ini, limpahkanlah baraqah dan rahmat kepada kedua mempelai ini. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah.</p>
+      <div class="amin" style="color:#fff">Aamiin</div>
+    </div>
+  </section>
+
+  <!-- ============ SALAM KAUT ============ -->
+  <section id="salamkaut">
+    <div class="col">
+      <div class="card">
+        <div class="ico a-wob" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="7" y="20" width="34" height="22" rx="2" fill="#E9DAF0"/><rect x="5" y="13" width="38" height="8" rx="2" fill="#FFFDF9"/><path d="M24 13v29"/><path d="M24 13c-3-6-11-7-11-2 0 3 6 2 11 2zM24 13c3-6 11-7 11-2 0 3-6 2-11 2z"/></svg></div>
+        <div class="label">Salam Kaut</div>
+        <h2>Hadiah &amp; Salam Kaut</h2>
+        <p>Kehadiran dan doa anda sudah memadai. Bagi yang ingin menghulurkan salam kaut, maklumat akaun akan dikongsi di sini tidak lama lagi.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RSVP ============ -->
+  <section id="rsvp">
+    <div class="col">
+      <div class="card">
+        <div class="ico a-beat" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="5" y="12" width="38" height="26" rx="3" fill="#FFFDF9"/><path d="M5 14l19 13 19-13"/><path d="M24 33s-5-3-5-6.2c0-1.7 1.3-2.8 2.6-2.8 1 0 1.8.5 2.4 1.4.6-.9 1.4-1.4 2.4-1.4 1.3 0 2.6 1.1 2.6 2.8C29 30 24 33 24 33z" fill="#8E54A8" stroke="none"/></svg></div>
+        <div class="label">Pengesahan Kehadiran</div>
+        <h2>RSVP</h2>
+        <form id="rsvpForm" novalidate>
+          <label class="f" for="r-name">Nama Tetamu
+            <input type="text" id="r-name" autocomplete="name" placeholder="Nama anda" required>
+          </label>
+          <fieldset style="border:0;padding:0;margin:0">
+            <legend class="label" style="font-size:12px;letter-spacing:.14em;margin-bottom:6px">Adakah anda akan hadir?</legend>
+            <div class="choices">
+              <label><input type="radio" name="hadir" id="r-ya" value="Ya, saya akan hadir" checked><span>Ya</span></label>
+              <label><input type="radio" name="hadir" id="r-tidak" value="Maaf, tidak dapat hadir"><span>Tidak</span></label>
+              <label><input type="radio" name="hadir" id="r-mungkin" value="Mungkin hadir"><span>Mungkin</span></label>
+            </div>
+          </fieldset>
+          <label class="f" for="r-pax">Bilangan Tetamu
+            <input type="number" id="r-pax" min="1" max="20" value="1" inputmode="numeric">
+          </label>
+          <label class="f" for="r-msg">Ucapan &amp; Doa (pilihan)
+            <textarea id="r-msg" placeholder="Tinggalkan ucapan untuk pengantin"></textarea>
+          </label>
+          <button class="btn" type="submit" style="justify-self:center">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg>
+            Hantar melalui WhatsApp
+          </button>
+          <p class="hint" id="rsvpHint">Butang ini membuka WhatsApp dengan mesej siap ditulis kepada pengantin. Tekan Hantar dalam WhatsApp untuk lengkapkan RSVP.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HUBUNGI ============ -->
+  <section id="hubungi">
+    <div class="col">
+      <div class="ico a-ring" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M14 6l6 9-4 4c2 5 6 9 11 11l4-4 9 6-3 7c-1 2-3 3-5 3C19 41 7 29 6 16c0-2 1-4 3-5z" fill="#8E54A8"/><path d="M30 8a12 12 0 0 1 10 10M30 14a6 6 0 0 1 4 4" stroke="#C9A2D6" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+      <div class="label">Untuk Sebarang Pertanyaan</div>
+      <h2>Hubungi Kami</h2>
+      <div class="contacts" id="contacts"></div>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="closing">
+    <div class="col">
+      <img class="mono-close" src="img/monogram.png" alt="Monogram Adibah dan Hazman" width="613" height="470">
+      <div class="ico a-sway" style="display:none" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 46V26" stroke="#8E54A8" stroke-width="2"/><path d="M24 34c-6 0-10-4-10-8 5 0 10 3 10 8zM24 30c5 0 9-3 9-7-5 0-9 3-9 7z" fill="#C9A2D6"/><circle cx="24" cy="14" r="5" fill="#8E54A8"/><circle cx="17" cy="10" r="4.5" fill="#B57BD0"/><circle cx="31" cy="10" r="4.5" fill="#B57BD0"/><circle cx="19" cy="19" r="4.5" fill="#C9A2D6"/><circle cx="29" cy="19" r="4.5" fill="#C9A2D6"/><circle cx="24" cy="5" r="4" fill="#D9B8E6"/></svg></div>
+      <p class="thanks">Kehadiran dan doa restu anda amat kami hargai. Terima kasih.</p>
+      <div class="tag">#Hadibah</div>
+    </div>
+  </section>
+</main>
+
+<nav class="nav" aria-label="Pintasan">
+  <div>
+    <a href="#utama"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Utama</a>
+    <a href="#aturcara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>Aturcara</a>
+    <a href="#lokasi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>Lokasi</a>
+    <a href="#rsvp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>RSVP</a>
+    <a href="#hubungi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3l3 5-2 2c1 3 4 6 7 7l2-2 5 3-1 3c-.5 1-1.5 1.5-2.5 1.5C10 22 2 14 2.5 6.5 2.5 5.5 3 4.5 4 4z"/></svg>Hubungi</a>
+  </div>
+</nav>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- cover ---------- */
+  var cover = document.getElementById("cover");
+  document.getElementById("openBtn").addEventListener("click", function(){
+    cover.classList.add("gone");
+    document.body.style.overflow = "";
+  });
+  document.body.style.overflow = "hidden";
+
+  /* ---------- crystal sky (fixed background) ---------- */
+  function crystalSky(canvas, opts){
+    var ctx = canvas.getContext("2d"); if(!ctx) return;
+    var W, H, dpr, shards = [], sparks = [];
+    var cols = ["201,162,214","215,184,227","181,123,208","233,218,240"];
+    function rnd(a,b){return a + Math.random()*(b-a);}
+    function make(){
+      shards = []; sparks = [];
+      var n = opts.shards;
+      for(var i=0;i<n;i++){
+        var sides = Math.random()<.5?3:4, pts=[];
+        var r = rnd(60,180)*(W<600?0.75:1);
+        for(var k=0;k<sides;k++){ var ang = (k/sides)*Math.PI*2 + rnd(-.5,.5); pts.push([Math.cos(ang)*r*rnd(.6,1.2), Math.sin(ang)*r*rnd(.6,1.2)]); }
+        var edge = i%2===0;
+        shards.push({x: edge ? (Math.random()<.5? rnd(-60,W*.25) : rnd(W*.75,W+60)) : rnd(0,W), y:rnd(-40,H+40), pts:pts, rot:rnd(0,6.28), vr:rnd(-.0012,.0012), vy:rnd(-.08,-.02), vx:rnd(-.04,.04), a:rnd(.10,.26), c:cols[i%cols.length]});
+      }
+      for(var j=0;j<opts.sparks;j++){
+        sparks.push({x:rnd(0,W), y:rnd(0,H), s:rnd(1,2.6), ph:rnd(0,6.28), sp:rnd(.01,.035), vy:rnd(-.25,-.06), star: Math.random()<.25});
+      }
+    }
+    function size(){
+      dpr = Math.min(window.devicePixelRatio||1, 2);
+      W = canvas.clientWidth; H = canvas.clientHeight;
+      canvas.width = W*dpr; canvas.height = H*dpr;
+      ctx.setTransform(dpr,0,0,dpr,0,0);
+      make(); draw();
+    }
+    function star(x,y,s){
+      ctx.beginPath(); ctx.moveTo(x,y-s*3); ctx.lineTo(x+s*.7,y-s*.7); ctx.lineTo(x+s*3,y); ctx.lineTo(x+s*.7,y+s*.7);
+      ctx.lineTo(x,y+s*3); ctx.lineTo(x-s*.7,y+s*.7); ctx.lineTo(x-s*3,y); ctx.lineTo(x-s*.7,y-s*.7); ctx.closePath(); ctx.fill();
+    }
+    function draw(){
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<shards.length;i++){
+        var s = shards[i];
+        ctx.save(); ctx.translate(s.x,s.y); ctx.rotate(s.rot);
+        var g = ctx.createLinearGradient(-120,-120,120,120);
+        g.addColorStop(0,"rgba("+s.c+","+(s.a*1.4)+")"); g.addColorStop(1,"rgba("+s.c+","+(s.a*.35)+")");
+        ctx.fillStyle = g; ctx.strokeStyle = "rgba(255,255,255,"+(s.a*1.6)+")"; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(s.pts[0][0],s.pts[0][1]);
+        for(var k=1;k<s.pts.length;k++) ctx.lineTo(s.pts[k][0],s.pts[k][1]);
+        ctx.closePath(); ctx.fill(); ctx.stroke();
+        ctx.restore();
+      }
+      for(var j=0;j<sparks.length;j++){
+        var p = sparks[j], tw = .35 + .65*Math.abs(Math.sin(p.ph));
+        ctx.fillStyle = p.star ? "rgba(142,84,168,"+tw+")" : "rgba(181,123,208,"+(tw*.8)+")";
+        if(p.star) star(p.x,p.y,p.s*.9); else { ctx.beginPath(); ctx.arc(p.x,p.y,p.s,0,6.283); ctx.fill(); }
+      }
+    }
+    function step(){
+      for(var i=0;i<shards.length;i++){
+        var s = shards[i]; s.rot += s.vr; s.y += s.vy; s.x += s.vx;
+        if(s.y < -220){ s.y = H+200; }
+      }
+      for(var j=0;j<sparks.length;j++){
+        var p = sparks[j]; p.ph += p.sp; p.y += p.vy; p.x += Math.sin(p.ph)*.15;
+        if(p.y < -10){ p.y = H+10; p.x = Math.random()*W; }
+      }
+      draw();
+      if(!document.hidden || opts.always) requestAnimationFrame(step); else setTimeout(function(){requestAnimationFrame(step);},500);
+    }
+    size();
+    window.addEventListener("resize", size);
+    if(!reduce) requestAnimationFrame(step);
+  }
+  crystalSky(document.getElementById("sky"), {shards: 14, sparks: 46});
+  crystalSky(document.getElementById("coverSky"), {shards: 10, sparks: 34});
+
+  /* ---------- falling petals in lilac bands ---------- */
+  function petals(canvas){
+    var ctx = canvas.getContext("2d"); if(!ctx) return;
+    var W,H,dpr,list=[];
+    function size(){
+      dpr = Math.min(window.devicePixelRatio||1,2);
+      W = canvas.clientWidth; H = canvas.clientHeight;
+      canvas.width = W*dpr; canvas.height = H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+      list = [];
+      var n = Math.round(Math.max(12, W/28));
+      for(var i=0;i<n;i++) list.push({x:Math.random()*W, y:Math.random()*H, r:4+Math.random()*6, rot:Math.random()*6.28, vr:(Math.random()-.5)*.03, vy:.3+Math.random()*.6, ph:Math.random()*6.28, a:.35+Math.random()*.4});
+      draw();
+    }
+    function draw(){
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<list.length;i++){
+        var p=list[i]; ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot);
+        ctx.fillStyle="rgba(255,253,249,"+p.a+")";
+        ctx.beginPath(); ctx.ellipse(0,0,p.r,p.r*.55,0,0,6.283); ctx.fill(); ctx.restore();
+      }
+    }
+    function step(){
+      for(var i=0;i<list.length;i++){ var p=list[i]; p.y+=p.vy; p.ph+=.02; p.x+=Math.sin(p.ph)*.5; p.rot+=p.vr; if(p.y>H+10){p.y=-10;p.x=Math.random()*W;} }
+      draw(); requestAnimationFrame(step);
+    }
+    size(); window.addEventListener("resize", size);
+    if(!reduce) requestAnimationFrame(step);
+  }
+  petals(document.getElementById("petals"));
+  petals(document.getElementById("petals2"));
+
+  /* ---------- countdown ---------- */
+  var target = Date.parse("2027-11-27T12:00:00+08:00");
+  var el = {d:document.getElementById("cd-d"),h:document.getElementById("cd-h"),m:document.getElementById("cd-m"),s:document.getElementById("cd-s")};
+  function pad(n){return n<10?"0"+n:""+n;}
+  function tick(){
+    var diff = Math.max(0, target - Date.now());
+    var s = Math.floor(diff/1000);
+    el.d.textContent = Math.floor(s/86400);
+    el.h.textContent = pad(Math.floor(s%86400/3600));
+    el.m.textContent = pad(Math.floor(s%3600/60));
+    el.s.textContent = pad(s%60);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---------- contacts ---------- */
+  var people = [
+    ["Adibah","Pengantin","017-4434129"],
+    ["Rozali","Bapa Pengantin","017-5689474"],
+    ["Noor Siah","Ibu Pengantin","012-4869993"],
+    ["Hanisah","Kakak Pengantin","017-4717803"]
+  ];
+  var waIcon = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg>';
+  var box = document.getElementById("contacts");
+  people.forEach(function(p){
+    var intl = "60" + p[2].replace(/\D/g,"").replace(/^0/,"");
+    var row = document.createElement("div"); row.className = "contact";
+    row.innerHTML = '<div><b></b><small></small></div><div class="c-right"><span class="num"></span><a class="chip" target="_blank" rel="noopener"></a></div>';
+    row.querySelector("b").textContent = p[0];
+    row.querySelector("small").textContent = p[1];
+    row.querySelector(".num").textContent = p[2];
+    var a = row.querySelector("a"); a.href = "https://wa.me/" + intl; a.innerHTML = waIcon;
+    a.setAttribute("aria-label","WhatsApp " + p[0]);
+    box.appendChild(row);
+  });
+
+  /* ---------- RSVP via WhatsApp ---------- */
+  var form = document.getElementById("rsvpForm");
+  var hint = document.getElementById("rsvpHint");
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var name = document.getElementById("r-name").value.trim();
+    if(!name){ hint.textContent = "Sila isi nama anda dahulu."; document.getElementById("r-name").focus(); return; }
+    var hadir = (form.querySelector('input[name="hadir"]:checked')||{}).value || "";
+    var pax = document.getElementById("r-pax").value || "1";
+    var msg = document.getElementById("r-msg").value.trim();
+    var text = "RSVP Walimatul Urus Adibah & Hazman (27.11.2027)\n\nNama: " + name + "\nKehadiran: " + hadir + "\nBilangan tetamu: " + pax + (msg ? "\n\nUcapan: " + msg : "");
+    var url = "https://wa.me/60174434129?text=" + encodeURIComponent(text);
+    var a = document.createElement("a"); a.href = url; a.target = "_blank"; a.rel = "noopener";
+    document.body.appendChild(a); a.click(); a.remove();
+    hint.textContent = "WhatsApp sepatutnya terbuka sekarang. Kalau tak terbuka, hubungi Adibah di 017-4434129.";
+  });
+})();
+</script>
+
+</body></html>
