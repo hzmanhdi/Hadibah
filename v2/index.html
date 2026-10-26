@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="ms">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Walimatul Urus Adibah &amp; Hazman</title>
+<meta name="description" content="Jemputan Walimatul Urus Adibah &amp; Hazman · Sabtu, 27 November 2027 · Astana Fartisha, Lahat, Perak">
+<meta property="og:title" content="Walimatul Urus Adibah &amp; Hazman">
+<meta property="og:description" content="Sabtu, 27 November 2027 · Astana Fartisha, Lahat, Perak">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hzmanhdi.github.io/Hadibah/v2/">
+<meta property="og:image" content="https://hzmanhdi.github.io/Hadibah/img/monogram-sage.png">
+<meta name="theme-color" content="#F6F3EC">
+<link rel="icon" href="../img/monogram-sage.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap">
+<style>
+/* Layout: one quiet column on warm ivory; sections divided by hairlines and numbered labels, type does the decorating. */
+:root{
+  --bg:#F6F3EC;
+  --paper:#FBFAF6;
+  --line:#DDD7CB;
+  --sage:#8A9A82;
+  --sage-soft:#E4E8DF;
+  --ink:#2F3A2E;
+  --muted:#5C6358;
+  --f-display:"Cormorant Garamond",Garamond,"Times New Roman",serif;
+  --f-body:"Jost","Avenir Next","Segoe UI",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-weight:400;font-size:16px;line-height:1.75;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+p{margin:0}
+a{color:inherit}
+main{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+.col{max-width:480px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+section{padding-block:72px;text-align:center;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+
+.eyebrow{font-family:var(--f-body);font-weight:400;font-size:11.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--sage)}
+.num{display:block;font-family:var(--f-display);font-style:italic;font-size:15px;letter-spacing:.04em;color:var(--sage);margin-bottom:6px}
+h2{font-family:var(--f-display);font-weight:400;font-size:34px;line-height:1.15;letter-spacing:.01em;margin:6px 0 28px;color:var(--ink);text-wrap:balance}
+.lead{color:var(--muted)}
+.hair{width:40px;height:1px;background:var(--sage);margin:28px auto;border:0}
+
+/* ---------- cover ---------- */
+#cover{position:fixed;inset:0;z-index:50;display:grid;place-items:center;background:var(--bg);transition:opacity .8s ease,visibility .8s;padding:24px}
+#cover.gone{opacity:0;visibility:hidden}
+.cover-in{display:grid;justify-items:center;gap:22px;text-align:center}
+.cover-mono{width:150px;height:auto}
+.cover-names{font-family:var(--f-display);font-size:40px;line-height:1.1;font-weight:400}
+.cover-names em{font-style:italic;color:var(--sage);font-size:.7em;display:block;margin:4px 0}
+.cover-date{font-size:13px;letter-spacing:.3em;color:var(--muted)}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--f-body);font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:var(--paper);background:var(--ink);border:1px solid var(--ink);padding:14px 26px;border-radius:0;cursor:pointer;transition:background .2s,color .2s}
+.btn:hover{background:#435042}
+.btn.line{background:transparent;color:var(--ink)}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+.btn svg{width:16px;height:16px;flex:none}
+.btn:focus-visible,.nav a:focus-visible,.wa:focus-visible{outline:2px solid var(--sage);outline-offset:3px}
+.row{display:grid;gap:10px;margin-top:28px}
+
+/* ---------- hero ---------- */
+.hero{padding-top:56px}
+.couple{width:min(62vw,220px);margin:34px auto 30px}
+.names{font-family:var(--f-display);font-weight:400;font-size:48px;line-height:1.05;letter-spacing:.01em}
+.names em{display:block;font-style:italic;font-size:26px;color:var(--sage);margin:8px 0}
+.date{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:30px;font-family:var(--f-display);font-size:24px;letter-spacing:.08em}
+.date span{color:var(--muted);font-family:var(--f-body);font-size:11.5px;letter-spacing:.3em;text-transform:uppercase}
+.date i{width:1px;height:34px;background:var(--line)}
+.place{margin-top:20px;font-size:14px;letter-spacing:.06em;color:var(--muted)}
+
+/* ---------- invitation ---------- */
+.invite p{font-size:16px}
+.invite .parents{font-family:var(--f-display);font-size:24px;line-height:1.4;margin:18px 0}
+.invite .parents em{font-style:italic;color:var(--sage);font-size:20px}
+.invite .bride,.invite .groom{font-family:var(--f-display);font-size:30px;line-height:1.2;margin:4px 0;text-wrap:balance}
+.invite .and{font-family:var(--f-display);font-style:italic;color:var(--sage);font-size:18px}
+.when{display:grid;gap:2px;margin-top:4px}
+.when b{font-family:var(--f-display);font-weight:500;font-size:22px}
+.when small{font-size:14px;color:var(--muted)}
+
+/* ---------- countdown ---------- */
+.count{display:grid;grid-template-columns:repeat(4,1fr);margin:0 auto 30px;max-width:360px}
+.count div{padding:4px 0;border-left:1px solid var(--line)}
+.count div:first-child{border-left:0}
+.count b{display:block;font-family:var(--f-display);font-weight:400;font-size:38px;line-height:1.1;font-variant-numeric:tabular-nums}
+.count span{font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.verse{font-family:var(--f-display);font-style:italic;font-size:20px;line-height:1.55;max-width:34ch;margin:0 auto}
+.verse cite{display:block;font-family:var(--f-body);font-style:normal;font-size:11.5px;letter-spacing:.3em;color:var(--sage);margin-top:14px}
+
+/* ---------- aturcara ---------- */
+.agenda{list-style:none;margin:0;padding:0;text-align:left}
+.agenda li{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.agenda li:first-child{border-top:1px solid var(--line)}
+.agenda time{font-family:var(--f-display);font-size:21px;font-variant-numeric:tabular-nums}
+.agenda time small{display:block;font-family:var(--f-body);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.agenda span{font-size:16px}
+
+/* ---------- doa ---------- */
+.doa-sec{background:var(--sage-soft)}
+.doa{font-family:var(--f-display);font-style:italic;font-size:21px;line-height:1.6;max-width:32ch;margin:0 auto}
+.amin{font-family:var(--f-display);font-size:26px;letter-spacing:.12em;margin-top:18px;color:var(--sage)}
+
+/* ---------- rsvp ---------- */
+form{display:grid;gap:26px;text-align:left;margin-top:8px}
+.field{display:grid;gap:6px}
+.field>span,legend{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+input[type=text],input[type=number],textarea{font:inherit;font-weight:400;font-size:16px;color:var(--ink);background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:8px 0;width:100%}
+textarea{min-height:84px;resize:vertical}
+input:focus,textarea:focus{outline:0;border-bottom-color:var(--ink)}
+fieldset{border:0;padding:0;margin:0}
+legend{padding:0;margin-bottom:10px}
+.choices{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line)}
+.choices label{position:relative}
+.choices label+label{border-left:1px solid var(--line)}
+.choices input{position:absolute;opacity:0;pointer-events:none}
+.choices span{display:block;text-align:center;padding:12px 4px;font-size:14px;letter-spacing:.06em;cursor:pointer;transition:background .2s,color .2s}
+.choices input:checked+span{background:var(--ink);color:var(--paper)}
+.choices input:focus-visible+span{outline:2px solid var(--sage);outline-offset:-2px}
+form .btn{justify-self:stretch}
+.hint{font-size:14px;color:var(--muted);text-align:center;margin-top:-8px}
+
+/* ---------- hubungi ---------- */
+.people{text-align:left}
+.person{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.person:first-child{border-top:1px solid var(--line)}
+.person b{display:block;font-family:var(--f-display);font-weight:500;font-size:22px;line-height:1.2}
+.person small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.person .tel{font-size:14px;font-variant-numeric:tabular-nums;color:var(--muted);margin-right:12px}
+.wa{display:inline-grid;place-items:center;width:40px;height:40px;border:1px solid var(--ink);border-radius:50%;color:var(--ink);text-decoration:none;transition:background .2s,color .2s}
+.wa:hover{background:var(--ink);color:var(--paper)}
+.wa svg{width:18px;height:18px}
+.person .r{display:flex;align-items:center}
+
+/* ---------- closing ---------- */
+.closing .mono{width:120px;margin:0 auto 26px}
+.closing p{font-family:var(--f-display);font-style:italic;font-size:21px;line-height:1.5;max-width:28ch;margin:0 auto}
+.tag{font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--sage);margin-top:22px}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(246,243,236,.94);backdrop-filter:blur(8px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+.nav div{display:grid;grid-template-columns:repeat(5,1fr);max-width:480px;margin:0 auto}
+.nav a{display:grid;justify-items:center;gap:3px;padding:10px 2px 9px;text-decoration:none;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.nav a:hover{color:var(--ink)}
+.nav svg{width:19px;height:19px}
+
+/* ---------- motion ---------- */
+.js .reveal{opacity:0;transform:translateY(14px);transition:opacity .9s ease,transform .9s ease}
+.js .reveal.in{opacity:1;transform:none}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.couple{animation:drift 7s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.js .reveal{opacity:1;transform:none}}
+@media (max-width:370px){.names{font-size:42px}.cover-names{font-size:36px}h2{font-size:30px}.invite .bride,.invite .groom{font-size:27px}.count b{font-size:32px}.agenda li{grid-template-columns:84px 1fr}}
+</style>
+<script>document.documentElement.className="js"</script>
+</head>
+<body>
+
+<div id="cover" role="dialog" aria-label="Jemputan Walimatul Urus">
+  <div class="cover-in">
+    <img class="cover-mono" src="../img/monogram-sage.png" alt="Monogram A dan H" width="613" height="470">
+    <div class="eyebrow">Walimatul Urus</div>
+    <div class="cover-names">Adibah<em>&amp;</em>Hazman</div>
+    <div class="cover-date">27 · 11 · 2027</div>
+    <button class="btn" id="openBtn" type="button">Buka Jemputan</button>
+  </div>
+</div>
+
+<main>
+  <section class="hero" id="utama">
+    <div class="col">
+      <div class="eyebrow reveal">Walimatul Urus</div>
+      <img class="couple reveal" src="../img/couple-cut.png" alt="Adibah dan Hazman" width="234" height="386">
+      <h1 class="names reveal" style="margin:0">Adibah<em>&amp;</em>Hazman</h1>
+      <div class="date reveal">
+        <span>Sabtu</span><i></i>27.11.2027<i></i><span>12–4 PTG</span>
+      </div>
+      <p class="place reveal">Astana Fartisha, Lahat, Perak</p>
+    </div>
+  </section>
+
+  <section class="invite" id="jemputan">
+    <div class="col reveal">
+      <span class="num">01</span>
+      <div class="eyebrow">Jemputan</div>
+      <hr class="hair">
+      <p class="lead">Assalamualaikum WBT &amp; Salam Sejahtera.<br>Dengan penuh kesyukuran ke hadrat Ilahi, kami</p>
+      <p class="parents">Rozali Bin Shamsudin<br><em>&amp;</em><br>Noor Siah Binti Zabidin</p>
+      <p class="lead">dengan segala hormatnya menjemput<br>Dato' / Datin / Tuan / Puan / Encik / Cik<br>ke majlis perkahwinan puteri kami</p>
+      <hr class="hair">
+      <p class="bride">Adibah Binti Rozali</p>
+      <p class="and">dan pasangannya</p>
+      <p class="groom">Hazman Hadi Bin M. Khirol Amin</p>
+      <hr class="hair">
+      <div class="when">
+        <small>pada</small>
+        <b>Sabtu, 27 November 2027</b>
+        <small>28 Jamadilakhir 1449H</small>
+        <b>12.00 Tengah Hari – 4.00 Petang</b>
+      </div>
+    </div>
+  </section>
+
+  <section id="kiraan">
+    <div class="col reveal">
+      <span class="num">02</span>
+      <div class="eyebrow">Menghitung Hari</div>
+      <h2>Menuju hari bahagia</h2>
+      <div class="count" role="timer" aria-live="off">
+        <div><b id="cd-d">--</b><span>Hari</span></div>
+        <div><b id="cd-h">--</b><span>Jam</span></div>
+        <div><b id="cd-m">--</b><span>Minit</span></div>
+        <div><b id="cd-s">--</b><span>Saat</span></div>
+      </div>
+      <a class="btn line" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Walimatul%20Urus%20Adibah%20%26%20Hazman&dates=20271127T040000Z/20271127T080000Z&location=Astana%20Fartisha%2C%20Kampung%20Changkat%20Larang%2C%2031650%20Lahat%2C%20Perak&details=Majlis%20perkahwinan%20Adibah%20Binti%20Rozali%20%26%20Hazman%20Hadi%20Bin%20M.%20Khirol%20Amin">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+        Simpan ke Kalendar
+      </a>
+      <hr class="hair" style="margin-top:44px">
+      <p class="verse">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya.”<cite>AR-RUM · 21</cite></p>
+    </div>
+  </section>
+
+  <section id="aturcara">
+    <div class="col reveal">
+      <span class="num">03</span>
+      <div class="eyebrow">Atur Cara</div>
+      <h2>Aturcara majlis</h2>
+      <ol class="agenda">
+        <li><time>12.00<small>Tengah hari</small></time><span>Ketibaan tetamu &amp; jamuan makan</span></li>
+        <li><time>1.00<small>Petang</small></time><span>Ketibaan pengantin</span></li>
+        <li><time>1.30<small>Petang</small></time><span>Majlis bersanding &amp; sesi bergambar</span></li>
+        <li><time>4.00<small>Petang</small></time><span>Majlis bersurai</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="lokasi">
+    <div class="col reveal">
+      <span class="num">04</span>
+      <div class="eyebrow">Lokasi</div>
+      <h2>Astana Fartisha</h2>
+      <p class="lead">Kampung Changkat Larang,<br>31650 Lahat, Perak</p>
+      <div class="row">
+        <a class="btn" target="_blank" rel="noopener" href="https://waze.com/ul?q=Astana%20Fartisha%20Lahat%20Perak&navigate=yes">Buka di Waze</a>
+        <a class="btn line" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Astana+Fartisha+Kampung+Changkat+Larang+Lahat+Perak">Buka di Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="doa-sec" id="doa">
+    <div class="col reveal">
+      <div class="eyebrow">Doa Untuk Pengantin</div>
+      <hr class="hair">
+      <p class="doa">Ya Allah, berkatilah majlis perkahwinan ini, limpahkanlah baraqah dan rahmat kepada kedua mempelai ini. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah.</p>
+      <div class="amin">Aamiin</div>
+    </div>
+  </section>
+
+  <section id="salamkaut">
+    <div class="col reveal">
+      <span class="num">05</span>
+      <div class="eyebrow">Salam Kaut</div>
+      <h2>Hadiah &amp; salam kaut</h2>
+      <p class="lead">Kehadiran dan doa anda sudah memadai. Bagi yang ingin menghulurkan salam kaut, maklumat akaun akan dikongsi di sini tidak lama lagi.</p>
+    </div>
+  </section>
+
+  <section id="rsvp">
+    <div class="col reveal">
+      <span class="num">06</span>
+      <div class="eyebrow">Pengesahan Kehadiran</div>
+      <h2>RSVP</h2>
+      <form id="rsvpForm" novalidate>
+        <label class="field"><span>Nama tetamu</span>
+          <input type="text" id="r-name" autocomplete="name" placeholder="Nama anda" required>
+        </label>
+        <fieldset>
+          <legend>Adakah anda akan hadir?</legend>
+          <div class="choices">
+            <label><input type="radio" name="hadir" value="Ya, saya akan hadir" checked><span>Ya</span></label>
+            <label><input type="radio" name="hadir" value="Maaf, tidak dapat hadir"><span>Tidak</span></label>
+            <label><input type="radio" name="hadir" value="Mungkin hadir"><span>Mungkin</span></label>
+          </div>
+        </fieldset>
+        <label class="field"><span>Bilangan tetamu</span>
+          <input type="number" id="r-pax" min="1" max="20" value="1" inputmode="numeric">
+        </label>
+        <label class="field"><span>Ucapan &amp; doa (pilihan)</span>
+          <textarea id="r-msg" placeholder="Tinggalkan ucapan untuk pengantin"></textarea>
+        </label>
+        <button class="btn" type="submit">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg>
+          Hantar melalui WhatsApp
+        </button>
+        <p class="hint" id="rsvpHint">Butang ini membuka WhatsApp dengan mesej siap ditulis kepada pengantin. Tekan Hantar dalam WhatsApp untuk lengkapkan RSVP.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="hubungi">
+    <div class="col reveal">
+      <span class="num">07</span>
+      <div class="eyebrow">Untuk Sebarang Pertanyaan</div>
+      <h2>Hubungi kami</h2>
+      <div class="people" id="contacts"></div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="col reveal">
+      <img class="mono" src="../img/monogram-sage.png" alt="Monogram Adibah dan Hazman" width="613" height="470">
+      <p>Kehadiran dan doa restu anda amat kami hargai. Terima kasih.</p>
+      <div class="tag">#Hadibah</div>
+    </div>
+  </section>
+</main>
+
+<nav class="nav" aria-label="Pintasan">
+  <div>
+    <a href="#utama"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg>Utama</a>
+    <a href="#aturcara"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>Atur Cara</a>
+    <a href="#lokasi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21z"/><circle cx="12" cy="10.5" r="2.2"/></svg>Lokasi</a>
+    <a href="#rsvp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 7l9 6 9-6"/></svg>RSVP</a>
+    <a href="#hubungi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6 3l3 5-2 2c1 3 4 6 7 7l2-2 5 3-1 3c-.5 1-1.5 1.5-2.5 1.5C10 22 2 14 2.5 6.5 2.5 5.5 3 4.5 4 4z"/></svg>Hubungi</a>
+  </div>
+</nav>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- cover ---------- */
+  var cover = document.getElementById("cover");
+  document.body.style.overflow = "hidden";
+  document.getElementById("openBtn").addEventListener("click", function(){
+    cover.classList.add("gone");
+    document.body.style.overflow = "";
+  });
+
+  /* ---------- reveal on scroll ---------- */
+  var items = document.querySelectorAll(".reveal");
+  if("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, {rootMargin:"0px 0px -8% 0px"});
+    items.forEach(function(el){ io.observe(el); });
+  } else {
+    items.forEach(function(el){ el.classList.add("in"); });
+  }
+
+  /* ---------- countdown ---------- */
+  var target = Date.parse("2027-11-27T12:00:00+08:00");
+  var el = {d:document.getElementById("cd-d"),h:document.getElementById("cd-h"),m:document.getElementById("cd-m"),s:document.getElementById("cd-s")};
+  function pad(n){return n<10?"0"+n:""+n;}
+  function tick(){
+    var s = Math.floor(Math.max(0, target - Date.now())/1000);
+    el.d.textContent = Math.floor(s/86400);
+    el.h.textContent = pad(Math.floor(s%86400/3600));
+    el.m.textContent = pad(Math.floor(s%3600/60));
+    el.s.textContent = pad(s%60);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---------- contacts ---------- */
+  var people = [
+    ["Adibah","Pengantin","017-4434129"],
+    ["Rozali","Bapa Pengantin","017-5689474"],
+    ["Noor Siah","Ibu Pengantin","012-4869993"],
+    ["Hanisah","Kakak Pengantin","017-4717803"]
+  ];
+  var waIcon = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.2z"/></svg>';
+  var box = document.getElementById("contacts");
+  people.forEach(function(p){
+    var row = document.createElement("div"); row.className = "person";
+    row.innerHTML = '<div><b></b><small></small></div><div class="r"><span class="tel"></span><a class="wa" target="_blank" rel="noopener"></a></div>';
+    row.querySelector("b").textContent = p[0];
+    row.querySelector("small").textContent = p[1];
+    row.querySelector(".tel").textContent = p[2];
+    var a = row.querySelector("a");
+    a.href = "https://wa.me/60" + p[2].replace(/\D/g,"").replace(/^0/,"");
+    a.innerHTML = waIcon;
+    a.setAttribute("aria-label","WhatsApp " + p[0]);
+    box.appendChild(row);
+  });
+
+  /* ---------- RSVP via WhatsApp ---------- */
+  var form = document.getElementById("rsvpForm");
+  var hint = document.getElementById("rsvpHint");
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var nameEl = document.getElementById("r-name");
+    var name = nameEl.value.trim();
+    if(!name){ hint.textContent = "Sila isi nama anda dahulu."; nameEl.focus(); return; }
+    var hadir = (form.querySelector('input[name="hadir"]:checked')||{}).value || "";
+    var pax = document.getElementById("r-pax").value || "1";
+    var msg = document.getElementById("r-msg").value.trim();
+    var text = "RSVP Walimatul Urus Adibah & Hazman (27.11.2027)\n\nNama: " + name + "\nKehadiran: " + hadir + "\nBilangan tetamu: " + pax + (msg ? "\n\nUcapan: " + msg : "");
+    var a = document.createElement("a");
+    a.href = "https://wa.me/60174434129?text=" + encodeURIComponent(text);
+    a.target = "_blank"; a.rel = "noopener";
+    document.body.appendChild(a); a.click(); a.remove();
+    hint.textContent = "WhatsApp sepatutnya terbuka sekarang. Kalau tak terbuka, hubungi Adibah di 017-4434129.";
+  });
+})();
+</script>
+</body>
+</html>
